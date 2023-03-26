@@ -1,48 +1,48 @@
 # - Laravel Modules Structure
             app/
-bootstrap/
-config/
-database/
-Modules/
-    |--- Blog/
-         |--- config/
-              |--- config.php
-         |--- database/
-              |--- migrations/
-              |--- seeds/
-                   |--- BlogDatabaseSeeder.php
-         |--- Http/
-              |--- Controllers/
-              |--- Requests/
-         |--- Models/
-         |--- Providers/
-              |--- BlogServiceProvider.php
-         |--- resources/
-              |--- assets/
-              |--- lang/
-              |--- views/
-         |--- routes/
-              |--- web.php
-         |--- tests/
-         |--- composer.json
-         |--- module.json
-         |--- package.json
-         |--- start.php
-         |--- webpack.mix.js
-    public/
-    resources/
-    routes/
-    storage/
-    tests/
-    vendor/
-    .env
-    artisan
-    composer.json
-    composer.lock
-    package.json
-    phpunit.xml
-    server.php
-    webpack.mix.js
+            bootstrap/
+            config/
+            database/
+            Modules/
+                |--- Blog/
+                     |--- config/
+                          |--- config.php
+                     |--- database/
+                          |--- migrations/
+                          |--- seeds/
+                               |--- BlogDatabaseSeeder.php
+                     |--- Http/
+                          |--- Controllers/
+                          |--- Requests/
+                     |--- Models/
+                     |--- Providers/
+                          |--- BlogServiceProvider.php
+                     |--- resources/
+                          |--- assets/
+                          |--- lang/
+                          |--- views/
+                     |--- routes/
+                          |--- web.php
+                     |--- tests/
+                     |--- composer.json
+                     |--- module.json
+                     |--- package.json
+                     |--- start.php
+                     |--- webpack.mix.js
+                public/
+                resources/
+                routes/
+                storage/
+                tests/
+                vendor/
+                .env
+                artisan
+                composer.json
+                composer.lock
+                package.json
+                phpunit.xml
+                server.php
+                webpack.mix.js
 ## Step 1 install Laravel
     laravel new Module
 
