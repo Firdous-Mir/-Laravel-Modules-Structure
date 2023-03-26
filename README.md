@@ -47,11 +47,18 @@ How to create laravel module
                 webpack.mix.js
 ## Step 1 install Laravel
     laravel new <project-name>
-
-
+    
 ## Install Laravel Module Package:
       composer require nwidart/laravel-modules
+      
+## The package will automatically register a service provider and alias. Optionally, publish the package's configuration and publish stubs by running:
+      php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
+      
+## To publish only the config:
+      php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider" --tag="config"
 
+## To publish only the stubs:
+      php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider" --tag="stubs"
 
 ## Create a Module:
      php artisan module:make <module-name>
@@ -80,6 +87,7 @@ How to create laravel module
         }
     },
 
+Tip: don't forget to run composer dump-autoload afterwards
 
 ## Create a Controller:
      php artisan module:make-controller <module-name> <controller-name>
