@@ -9,6 +9,9 @@
 
 ## Create a Module:
      php artisan module:make <module-name>
+     
+## create multiple modules:
+     php artisan module:make <module-name> <module-name> <module-name> <module-name>
 
 ## Register the Module:  'config/app.php'
     'providers' => [
