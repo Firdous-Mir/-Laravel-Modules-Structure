@@ -45,7 +45,7 @@ How to create laravel module
                 phpunit.xml
                 server.php
                 webpack.mix.js
-## Step 1 install Laravel
+## Install Laravel
     laravel new <project-name>
     
 ## Install Laravel Module Package:
