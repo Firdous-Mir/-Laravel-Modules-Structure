@@ -46,7 +46,7 @@ How to create laravel module
                 server.php
                 webpack.mix.js
 ## Step 1 install Laravel
-    laravel new Module
+    laravel new <project-name>
 
 
 ## Install Laravel Module Package:
