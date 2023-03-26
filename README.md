@@ -1,4 +1,4 @@
-# - Laravel Modules Structure
+# Laravel Modules Structure
             app/
             bootstrap/
             config/
