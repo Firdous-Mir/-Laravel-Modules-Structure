@@ -48,9 +48,6 @@
 ## Create a Controller:
      php artisan module:make-controller  <controller-name> <module-name>
 
-## Create a View:
-
-     php artisan module:make-view <view-name> <module-name> 
 
 ## Create Migration
      php artisan module:make-migration <migration-name> <module-name>
