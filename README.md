@@ -81,7 +81,7 @@ How to create laravel module
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Modules\\": "modules/",  // add Modules here 
+            "Modules\\": "modules/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
